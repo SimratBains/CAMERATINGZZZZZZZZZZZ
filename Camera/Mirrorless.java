@@ -4,4 +4,8 @@ public class Mirrorless extends DSLR {
 	public int getEVF() {
 		return EVF;
 	}
+
+	public void setEVF(int EVF) {
+		this.EVF = EVF;
+	}
 }
